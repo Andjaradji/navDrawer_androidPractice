@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navDramaID"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/drama"/>
+
+        <item android:id="@+id/navFilmID"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/film"/>
+
+        <item android:id="@+id/navSportID"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/sport"/>
+    </group>
+
+    <item android:title="@string/communicate"
+        android:id="@+id/navCommunicateID">
+        <menu>
+            <item android:id="@+id/navNewsNationalID"
+                android:icon="@drawable/presence_audio_online"
+                android:title="@string/national"
+                />
+
+            <item android:id="@+id/navNewsInternationalID"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/international"
+                />
+
+        </menu>
+    </item>
+
+
+
+</menu>

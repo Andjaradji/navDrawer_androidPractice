@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DrawerConstruction</string>
+    <string name="feature">Feature</string>
+    <string name="details">Details</string>
+    <string name="drama">Drama</string>
+    <string name="film">Film</string>
+    <string name="sport">Sport</string>
+    <string name="news">News</string>
+    <string name="national">National</string>
+    <string name="international">International</string>
+    <string name="communicate">Communicate</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+</resources>
